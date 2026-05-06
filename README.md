@@ -32,7 +32,7 @@ cargo run
 
 ```bash
 cargo run -- cpu "bert-base-uncased"
-cargo run -- "bert-base-uncased"  # GPU
+cargo run -- gpu "bert-base-uncased"
 ```
 
 Available models include:
@@ -40,7 +40,6 @@ Available models include:
 - `bert-base-uncased`
 - `bert-large-uncased`
 - `bert-base-cased`
-- And any other BERT model available on HuggingFace Hub
 
 ## Project Structure
 
