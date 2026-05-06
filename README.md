@@ -19,19 +19,12 @@ A BERT model implementation in Rust using the [Burn](https://burn.dev/) deep lea
 ### Run with CPU backend (default)
 
 ```bash
-cargo run -- cpu
+cargo run -- cpu "bert-base-uncased"
 ```
 
 ### Run with GPU backend (WGPU)
 
 ```bash
-cargo run
-```
-
-### Load a specific HuggingFace model
-
-```bash
-cargo run -- cpu "bert-base-uncased"
 cargo run -- gpu "bert-base-uncased"
 ```
 
