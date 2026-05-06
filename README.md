@@ -16,7 +16,7 @@ A BERT model implementation in Rust using the [Burn](https://burn.dev/) deep lea
 
 ## Usage
 
-### Run with CPU backend (default)
+### Run with CPU backend
 
 ```bash
 cargo run -- cpu "bert-base-uncased"
